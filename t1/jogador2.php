@@ -29,23 +29,23 @@
 	$pos33 = "";
 	if($vez==2){
 		if($jogada11 == "b.png")
-			$pos11 = "http://localhost/jogador2.php?=pos=11";
+			$pos11 = "http://renanc.phpfogapp.com/t1/jogador2.php?=pos=11";
 		if($jogada12 == "b.png")
-			$pos12 = "http://localhost/jogador2.php?pos=12";
+			$pos12 = "http://renanc.phpfogapp.com/t1/jogador2.php?pos=12";
 		if($jogada13 == "b.png")
-			$pos13 = "http://localhost/jogador2.php?pos=13";
+			$pos13 = "http://renanc.phpfogapp.com/t1/jogador2.php?pos=13";
 		if($jogada21 == "b.png")
-			$pos21 = "http://localhost/jogador2.php?pos=21";
+			$pos21 = "http://renanc.phpfogapp.com/t1/jogador2.php?pos=21";
 		if($jogada22 == "b.png")
-			$pos22 = "http://localhost/jogador2.php?pos=22";
+			$pos22 = "http://renanc.phpfogapp.com/t1/jogador2.php?pos=22";
 		if($jogada23 == "b.png")
-			$pos23 = "http://localhost/jogador2.php?pos=23";
+			$pos23 = "http://renanc.phpfogapp.com/t1/jogador2.php?pos=23";
 		if($jogada31 == "b.png")
-			$pos31 = "http://localhost/jogador2.php?pos=31";
+			$pos31 = "http://renanc.phpfogapp.com/t1/jogador2.php?pos=31";
 		if($jogada32 == "b.png")
-			$pos32 = "http://localhost/jogador2.php?pos=32";
+			$pos32 = "http://renanc.phpfogapp.com/t1/jogador2.php?pos=32";
 		if($jogada33 == "b.png")
-			$pos33 = "http://localhost/jogador2.php?pos=33";	
+			$pos33 = "http://renanc.phpfogapp.com/t1/jogador2.php?pos=33";	
 	}
 	
 	if($vez==2){
@@ -198,12 +198,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="http://localhost/layout.css">
+		<link rel="stylesheet" type="text/css" href="http://renanc.phpfogapp.com/t1/layout.css">
 		<meta http-equiv="refresh" content="1">
 		<title>Tic Tac Toe</title>
 	</head>
 		<body>
-		<form action="jogador2.php" method="get">
+		<form action="http://renanc.phpfogapp.com/t1/jogador2.php" method="get">
 			<b id="titulo">Tic Tac Toe - Multiplayer</b>
 			<div>
 			<table>	
