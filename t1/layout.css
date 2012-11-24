@@ -1,0 +1,80 @@
+@CHARSET "ISO-8859-1";
+
+/* Arquivo CSS de layout da página do Jogo da Velha - Multiplayer */
+body {
+	background-color:#EEEED1;
+}
+
+/* Seletor para tabela */
+table {
+	border: medium;
+	background-color: #000000;
+	position: relative;
+	top: 15px;
+	left: 33%;
+}
+
+td {
+	height: 150px;
+	width: 150px;	
+}
+
+tr {
+	height: 150px;
+	width: 150px;
+}
+
+img {
+	height: 150px;
+	width: 150px;
+}
+
+a {
+	position: relative;
+	height: 200px;
+	width: 200px;
+}
+
+b {
+	position: relative;
+	font-size: medium;
+	text-align: center;
+}
+
+#titulo {
+	position: relative;
+	font-size: xx-large;
+	left: 37%;
+	text-decoration: underline;
+}
+
+.win {
+	position: relative;
+	top: 20px;
+	font-size: x-large;
+	font-style: italic;
+	text-align: center;
+	background-color: #FFB90F;		
+}
+
+.lose{
+	position: relative;
+	font-size: x-large;
+	font-style: italic;
+	text-align: center;
+	background-color: #FF3030;
+}
+	
+.draw{
+	position: relative;
+	font-size: x-large;
+	font-style: italic;
+	text-align: center;
+	background-color: #6495ED;	
+}
+
+#link {
+	position: relative;
+	text-align: left;
+	font-size: medium;
+}
